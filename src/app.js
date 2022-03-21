@@ -40,3 +40,11 @@ function is_scholarship(average) {
 }
 
 console.log(scholarship_list(students))
+
+// part 4
+function dark_theme(){
+    const dark_mode = document.querySelector('.light-theme')
+    
+    return dark_mode.classList.toggle("dark-theme")
+}
+dark_theme()
